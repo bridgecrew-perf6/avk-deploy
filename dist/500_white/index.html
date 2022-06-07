@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="../assets/css/style.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <title>500 | АВК</title>
+</head>
+<body class="body__plug-page">
+  <header class="mega-nav mega-nav--mobile mega-nav--desktop@lg position-relative js-mega-nav" data-hover="on">
+    <div class="mega-nav_sub-container">
+      <div class="mega-nav__nav-inner">
+        <ul class="mega-nav__items">
+          <li class="mega-nav__item">
+            <div class="language-picker js-language-picker picker-city" data-trigger-class="btn btn--subtle js-tab-focus">
+              <form action="" class="language-picker__form">
+                <label for="language-picker-select">Выбрать город</label>
+            
+                <select name="language-picker-select" id="language-picker-select">
+                  <option lang="en" value="Архангельск" selected>Архангельск</option>
+                  <option lang="fr" value="Санкт-Петербург">Санкт-Петербург</option>
+                  <option lang="it" value="Москва">Москва</option>
+                </select>
+              </form>
+            </div>
+          </li>
+
+          <li class="mega-nav__item">
+            <a href="#0" class="mega-nav__control">Наши магазины</a>
+          </li>
+
+          <li class="mega-nav__item">
+            <a href="#0" class="mega-nav__control">Доставка и оплата</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mega-nav__nav-inner">
+        <ul class="mega-nav__items">
+          <li class="mega-nav__item mega-nav__social-btn">
+            <a href="#0" class="mega-nav__control"><svg class="icon" width="17" height="11" viewBox="0 0 17 11" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.7" d="M16.6278 0.732307C16.7304 0.313846 16.6278 0 16.1146 0H14.1644C13.6512 0 13.4459 0.209231 13.3433 0.523077C13.3433 0.523077 12.4195 2.82462 11.0852 4.39385C10.6746 4.81231 10.4693 5.02154 10.2641 5.02154C10.1614 5.02154 9.95614 4.91692 9.95614 4.49846V0.732307C9.95614 0.209231 9.8535 0 9.44294 0H6.46636C6.15844 0 5.95316 0.209231 5.95316 0.418462C5.95316 0.836923 6.67164 0.941538 6.67164 2.30154V5.12615C6.67164 5.75385 6.569 5.85846 6.36372 5.85846C5.74788 5.85846 4.20827 3.45231 3.2845 0.836923C3.07922 0.313846 2.97658 0.104615 2.46338 0.104615H0.61585C0.102647 0.104615 0 0.313846 0 0.627692C0 1.15077 0.615845 3.66154 2.97658 6.90462C4.51619 9.20615 6.67164 10.3569 8.62181 10.3569C9.8535 10.3569 9.95614 10.0431 9.95614 9.62461V7.95077C9.95614 7.42769 10.0588 7.32308 10.4693 7.32308C10.7773 7.32308 11.1878 7.42769 12.3169 8.57846C13.5486 9.83385 13.7538 10.4615 14.4723 10.4615H16.3199C16.8331 10.4615 17.141 10.1477 16.9357 9.62461C16.7304 9.10154 16.1146 8.36923 15.3961 7.42769C14.9855 6.90462 14.267 6.38154 14.1644 6.06769C13.8565 5.75385 13.9591 5.54462 14.1644 5.23077C14.1644 5.12615 16.4225 1.88308 16.6278 0.732307Z"/>
+              </svg>
+              </a>
+          </li>
+          <li class="mega-nav__item mega-nav__social-btn">
+            <a href="#0" class="mega-nav__control"><svg class="icon" width="7" height="14" viewBox="0 0 7 14" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.7" d="M1.71698 4.66288H0V7.06094H1.71698V13.9886H4.62264V7.06094H6.73585L6.86792 4.66288H4.62264V3.73031C4.62264 3.1974 4.75472 2.93095 5.28302 2.93095H7V0H4.75472C2.64151 0 1.71698 0.932576 1.71698 2.6645V4.66288Z"/>
+              </svg>              
+              </a>
+          </li>
+          <li class="mega-nav__item mega-nav__social-btn">
+            <a href="#0" class="mega-nav__control"><svg class="icon" width="13" height="13" viewBox="0 0 13 13" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.7" d="M9.36815 0H3.59791C1.62924 0 0 1.62924 0 3.59791V9.40209C0 11.3708 1.62924 13 3.59791 13H9.36815C11.3368 13 12.9661 11.3708 13 9.40209V3.63185C13 1.62924 11.3708 0 9.36815 0ZM6.48303 9.5718C4.7859 9.5718 3.4282 8.2141 3.4282 6.51697C3.4282 4.81984 4.7859 3.49608 6.44909 3.49608C8.11227 3.49608 9.46997 4.85379 9.46997 6.51697C9.46997 8.18016 8.14621 9.5718 6.48303 9.5718ZM11.235 3.1906C10.9634 3.63185 10.3864 3.80157 9.97911 3.53003C9.53786 3.25849 9.36815 2.68146 9.63969 2.27415C9.91123 1.8329 10.4883 1.66319 10.8956 1.93473C11.3368 2.17232 11.4726 2.74935 11.235 3.1906Z"/>
+              </svg>              
+              </a>
+          </li>
+          <li class="mega-nav__item mega-nav__social-btn">
+            <a href="#0" class="mega-nav__control"><svg class="icon" width="10" height="17" viewBox="0 0 10 17" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.7" d="M4.2026 11.4327C2.91649 11.2908 1.75171 10.9833 0.732535 10.2265C0.611204 10.1319 0.489873 10.0373 0.368543 9.94274C-0.0682485 9.54069 -0.116781 9.06769 0.222945 8.57105C0.514139 8.169 1.02373 8.05075 1.53332 8.28725C1.63038 8.33455 1.72745 8.38185 1.82451 8.4528C3.69301 9.70624 6.24096 9.72989 8.10945 8.5001C8.30358 8.3582 8.49771 8.23995 8.71611 8.19265C9.1529 8.0744 9.58969 8.23995 9.80808 8.61835C10.075 9.04404 10.075 9.46974 9.73528 9.82449C9.22569 10.3448 8.59478 10.7232 7.91532 10.9833C7.26014 11.2198 6.55642 11.3617 5.82843 11.4327C5.9255 11.5509 5.97403 11.5982 6.04683 11.6692C7.01747 12.6152 7.96385 13.5375 8.9345 14.4835C9.24996 14.8146 9.32276 15.193 9.1529 15.5714C8.95877 15.9734 8.52198 16.2572 8.08519 16.2099C7.81826 16.1863 7.59986 16.068 7.40573 15.8788C6.67775 15.1693 5.94976 14.4598 5.22178 13.7504C5.00338 13.5375 4.90632 13.5848 4.73645 13.774C4.00847 14.5071 3.25622 15.2166 2.52823 15.9498C2.18851 16.2809 1.80025 16.3282 1.41199 16.139C0.999463 15.9498 0.732535 15.5241 0.756801 15.122C0.781068 14.8382 0.902398 14.6254 1.09653 14.4362C2.04291 13.5139 2.98929 12.5915 3.93567 11.6455C4.03273 11.5982 4.10553 11.5273 4.2026 11.4327Z"/>
+              <path opacity="0.7" d="M4.9793 8.25378C2.67401 8.25378 0.78125 6.38545 0.78125 4.11507C0.805516 1.84468 2.69828 0 5.02783 0C7.35738 0 9.25014 1.86833 9.22588 4.16237C9.22588 6.4564 7.30885 8.27743 4.9793 8.25378ZM7.09046 4.13872C7.09046 3.02717 6.16834 2.12848 5.02783 2.12848C3.86305 2.12848 2.94094 3.02717 2.96521 4.16237C2.96521 5.27391 3.88732 6.1726 5.0521 6.14895C6.16834 6.14895 7.09046 5.25026 7.09046 4.13872Z"/>
+              </svg>              
+              </a>
+          </li>
+          <li class="mega-nav__item mega-nav__social-btn">
+            <a href="#0" class="mega-nav__control"><svg class="icon" width="15" height="12" viewBox="0 0 15 12" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.7" d="M14.254 0.839318C13.6834 0.202563 13.0443 0.198787 12.7512 0.162717C10.652 4.50135e-07 7.50333 0 7.50333 0H7.49627C7.49627 0 4.34758 4.50135e-07 2.24881 0.162717C1.95577 0.198837 1.31713 0.202563 0.74601 0.839318C0.296814 1.32508 0.150047 2.42842 0.150047 2.42842C0.150047 2.42842 0 3.72305 0 5.01772V6.23121C0 7.52678 0.150047 8.82096 0.150047 8.82096C0.150047 8.82096 0.296367 9.9238 0.74601 10.4086C1.31713 11.0454 2.06592 11.0261 2.3998 11.0927C3.59973 11.2156 7.5 11.2536 7.5 11.2536C7.5 11.2536 10.652 11.248 12.7512 11.0872C13.0442 11.0496 13.6834 11.0459 14.254 10.4091C14.7032 9.9243 14.85 8.82145 14.85 8.82145C14.85 8.82145 15 7.52683 15 6.23171V5.01817C15 3.7231 14.85 2.42842 14.85 2.42842C14.85 2.42842 14.7037 1.32513 14.254 0.839318ZM5.62675 8.44023V2.81343L10.3158 5.62685L5.62675 8.44023Z"/>
+              </svg>              
+              </a>
+          </li>
+
+          <li class="mega-nav__item border-right border-left">
+            <div class="language-picker js-language-picker picker-language" data-trigger-class="btn btn--subtle js-tab-focus">
+              <form action="" class="language-picker__form">
+                <label for="language-picker-select">Выбрать страну</label>
+            
+                <select name="language-picker-select" id="language-picker-select">
+                  <option lang="ru" value="russian" selected>Ru</option>
+                  <option lang="en" value="english">Eng</option>
+                  <option lang="de" value="deutsch">De</option>
+                  <option lang="fr" value="francais">Fr</option>
+                </select>
+              </form>
+            </div>
+          </li>
+
+          <li class="mega-nav__item border-right">
+            <div class="language-picker js-language-picker picker-currency" data-trigger-class="btn btn--subtle js-tab-focus">
+              <form action="" class="language-picker__form">
+                <label for="language-picker-select">Выбрать валюту</label>
+            
+                <select name="language-picker-select" id="language-picker-select">
+                  <option lang="RUB" value="russian" selected>RUB ₽</option>
+                  <option lang="EUR" value="english">EUR €</option>
+                  <option lang="USD" value="deutsch">USD $</option>
+                  <option lang="UAH" value="francais">UAH</option>
+                </select>
+              </form>
+            </div>
+          </li>
+
+          <li class="mega-nav__item">
+            <a class="header-phone" href="tel:8(800)302-44-94" itemprop="telephone">8 (800) 302-44-94</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="mega-nav__container">
+      <!-- 👇 logo -->
+      <a href="/" class="mega-nav__logo">
+        <img class="logo__svg" src="../assets/svg/logo-avk-1.svg" alt="Архангельский водорослевый комбинат">
+      </a>
+  
+      <!-- 👇 icon buttons --mobile -->
+      <div class="mega-nav__icon-btns mega-nav__icon-btns--mobile">
+  
+        <button class="reset mega-nav__icon-btn mega-nav__icon-btn--search js-tab-focus">
+          <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 16C10.275 15.9996 11.9988 15.4054 13.397 14.312L17.793 18.708L19.207 17.294L14.811 12.898C15.905 11.4997 16.4996 9.77544 16.5 8C16.5 3.589 12.911 0 8.5 0C4.089 0 0.5 3.589 0.5 8C0.5 12.411 4.089 16 8.5 16ZM8.5 2C11.809 2 14.5 4.691 14.5 8C14.5 11.309 11.809 14 8.5 14C5.191 14 2.5 11.309 2.5 8C2.5 4.691 5.191 2 8.5 2Z" />
+          </svg>  
+        </button>
+
+        <div class="mega-nav__icon-btn inline-block">
+          <a href="#0" class="color-inherit flex height-100% width-100% flex-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.5 7C22.5 7 10.8388 7 7.333 7L6.179 4.23C6.02769 3.86523 5.77147 3.55359 5.44282 3.33462C5.11418 3.11564 4.72791 2.99918 4.333 3H2V5H4.333L9 17C12 17 16 17 19 17L22.5 7ZM17.5 15H10.5L8.167 9H19.557L17.5 15Z"/>
+              <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" />
+              <path d="M17.5 21C18.3284 21 19 20.3284 19 19.5C19 18.6716 18.3284 18 17.5 18C16.6716 18 16 18.6716 16 19.5C16 20.3284 16.6716 21 17.5 21Z" />
+              <line x1="14" y1="11" x2="14" y2="13" stroke="white" stroke-width="2" stroke-linecap="square"/>
+            </svg>
+          </a>
+        </div>
+  
+        <button class="reset mega-nav__icon-btn mega-nav__icon-btn--menu js-tab-focus" aria-label="Toggle menu" aria-controls="mega-nav-navigation">
+          <svg class="icon" viewBox="0 0 24 24">
+            <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2">
+              <path d="M1 6h22" />
+              <path d="M1 12h22" />
+              <path d="M1 18h22" />
+            </g>
+          </svg>
+        </button>
+      </div>
+  
+      <div class="mega-nav__nav js-mega-nav__nav" id="mega-nav-navigation" role="navigation" aria-label="Main">
+        <div class="mega-nav__nav-inner">
+          <ul class="mega-nav__items row-links__items">
+            <li class="mega-nav__label">
+              <div class="height-100% flex justify-between items-center ">
+                <ul class="flex">
+                  <li class="padding-right-md">
+                     <div class="mega-nav__icon-btn inline-block">
+                       <a href="#0" class="color-inherit flex height-100% width-100% flex-center">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="12" cy="10" r="3" fill="#203330"></circle>
+                          <circle cx="12" cy="12" r="9" stroke="#203330" stroke-width="2" fill="none"></circle>
+                          <path d="M17.8719 18.8083C17.9489 18.7468 17.9799 18.6436 17.9452 18.5513C17.5693 17.5518 16.8134 16.6706 15.7814 16.0332C14.6966 15.3632 13.3674 15 12 15C10.6326 15 9.30341 15.3632 8.21858 16.0332C7.18663 16.6706 6.43066 17.5518 6.05477 18.5513C6.02009 18.6436 6.05115 18.7468 6.12813 18.8083V18.8083C9.56196 21.552 14.438 21.552 17.8719 18.8083V18.8083Z" stroke="#203330" stroke-width="2" stroke-linecap="round" fill="white"></path>
+                          </svg>              
+                       </a>
+                     </div>
+                  </li>
+                  <li>
+                   <div class="mega-nav__icon-btn inline-block">
+                     <a href="#0" class="color-inherit flex height-100% width-100% flex-center">
+                       <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M10.5 16.5L9.81644 17.2299L10.1049 17.5H10.5V16.5ZM10.5 4.5L9.57152 4.87139L9.82297 5.5H10.5V4.5ZM11.5 4.5V5.5H12.177L12.4285 4.87139L11.5 4.5ZM11.5 16.5V17.5H11.8951L12.1836 17.2299L11.5 16.5ZM11.6372 4.15707L10.7087 3.78568L11.6372 4.15707ZM10.3628 4.15707L9.43435 4.52846L10.3628 4.15707ZM11.1836 15.7701L3.98749 9.03093L2.62038 10.4907L9.81644 17.2299L11.1836 15.7701ZM9.43435 4.52846L9.57152 4.87139L11.4285 4.12861L11.2913 3.78568L9.43435 4.52846ZM10.5 5.5H11.5V3.5H10.5V5.5ZM12.4285 4.87139L12.5656 4.52847L10.7087 3.78568L10.5715 4.12861L12.4285 4.87139ZM18.0125 9.03092L10.8164 15.7701L12.1836 17.2299L19.3796 10.4907L18.0125 9.03092ZM11.5 15.5H10.5V17.5H11.5V15.5ZM18.4351 3.70329C19.691 5.32192 19.5078 7.63055 18.0125 9.03092L19.3796 10.4907C21.6288 8.38438 21.9042 4.91191 20.0153 2.4773L18.4351 3.70329ZM20.0153 2.4773C17.4498 -0.829386 12.263 -0.100201 10.7087 3.78568L12.5656 4.52847C13.5459 2.07772 16.8171 1.61783 18.4351 3.70329L20.0153 2.4773ZM3.56486 3.70329C5.18288 1.61783 8.45405 2.07771 9.43435 4.52846L11.2913 3.78568C9.73695 -0.100204 4.55022 -0.829386 1.98468 2.4773L3.56486 3.70329ZM3.98749 9.03093C2.49217 7.63055 2.30903 5.32192 3.56486 3.70329L1.98468 2.4773C0.0957624 4.91191 0.371228 8.38438 2.62038 10.4907L3.98749 9.03093Z" />
+                       </svg>                    
+                     </a>
+                   </div>
+                  </li>
+                </ul>
+                <ul class="flex">
+                  <li class="mega-nav__item">
+                    <div class="language-picker js-language-picker picker-language" data-trigger-class="btn btn--subtle js-tab-focus">
+                      <form action="" class="language-picker__form">
+                        <label for="language-picker-select">Выбрать страну</label>
+                    
+                        <select name="language-picker-select" id="language-picker-select">
+                          <option lang="ru" value="russian" selected>RU</option>
+                          <option lang="en" value="english">Eng</option>
+                          <option lang="de" value="deutsch">De</option>
+                          <option lang="fr" value="francais">Fr</option>
+                        </select>
+                      </form>
+                    </div>
+                  </li>
+        
+                  <li class="mega-nav__item">
+                    <div class="language-picker js-language-picker picker-currency" data-trigger-class="btn btn--subtle js-tab-focus">
+                      <form action="" class="language-picker__form">
+                        <label for="language-picker-select">Выбрать валюту</label>
+                    
+                        <select name="language-picker-select" id="language-picker-select">
+                          <option lang="RUB" value="russian" selected>RUB ₽</option>
+                          <option lang="EUR" value="english">EUR €</option>
+                          <option lang="USD" value="deutsch">USD $</option>
+                          <option lang="UAH" value="francais">UAH</option>
+                        </select>
+                      </form>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            
+            <div class="flex flex-column flex-row@lg">
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Суперфуд
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+  
+              <div class="mega-nav__sub-nav-wrapper border-left border-bottom border-right" aria-label="dropdown">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-2">
+                  <ul id="hover-sub-items-1" class="mega-nav__sub-items">
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Чипсы</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-2.jpg" class="mega-nav__sub-link">Чай с добавками</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-3.jpg" class="mega-nav__sub-link">Пищевые добавки</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-4.jpg" class="mega-nav__sub-link">Мармелад, конфеты</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Каши</a></li>
+                  </ul>
+  
+                  <ul id="hover-sub-items-1" class="mega-nav__sub-items">
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-3.jpg" class="mega-nav__sub-link">Водоросли пищевые</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Приправы, соль морская пищевая</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-2.jpg" class="mega-nav__sub-link">Органические загустители</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-4.jpg" class="mega-nav__sub-link">Шоколад</a></li>
+                  </ul>
+  
+                  <div class="mega-nav__card mega-nav__card-1 margin-x-auto">
+                    <div class="block overflow-hidden">
+                      <figure class="aspect-ratio-1:1">
+                        <img class="block width-100%" src="../assets/img/mega-site-nav-img-1.jpg" alt="Image description">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Здоровье
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+              
+              <div class="mega-nav__sub-nav-wrapper border-left border-bottom border-right">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-2">
+                  <ul id="hover-sub-items-2" class="mega-nav__sub-items">
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Чипсы</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-2.jpg" class="mega-nav__sub-link">Чай с добавками</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-3.jpg" class="mega-nav__sub-link">Пищевые добавки</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-4.jpg" class="mega-nav__sub-link">Мармелад, конфеты</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Каши</a></li>
+                  </ul>
+              
+                  <ul id="hover-sub-items-2" class="mega-nav__sub-items">
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-3.jpg" class="mega-nav__sub-link">Водоросли пищевые</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-1.jpg" class="mega-nav__sub-link">Приправы, соль морская пищевая</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-2.jpg" class="mega-nav__sub-link">Органические загустители</a></li>
+                    <li class="mega-nav__sub-item"><a href="#0" data-src="../assets/img/mega-site-nav-img-4.jpg" class="mega-nav__sub-link">Шоколад</a></li>
+                  </ul>
+              
+                  <div class="mega-nav__card mega-nav__card-2 width-100% max-width-xs margin-x-auto">
+                    <div class="block overflow-hidden">
+                      <figure class="aspect-ratio-1:1">
+                        <img class="block width-100%" src="../assets/img/mega-site-nav-img-1.jpg" alt="Image description">
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- 👇 layout 2-3 -> multiple lists -->
+            <li class="mega-nav__item">
+              <a href="#0" class="mega-nav__control">АльгаКосметика</a>
+            </li>
+          </div>
+          <div class="flex flex-column flex-row@lg">
+            <!-- 👇 link -->
+            <li class="mega-nav__item">
+              <a href="#0" class="mega-nav__control">Водоросли для бизнеса</a>
+            </li>
+
+            <li class="mega-nav__item">
+              <a href="#0" class="mega-nav__control">Распродажа</a>
+            </li>
+          </div>
+            <li class="mega-nav__label label-footer">
+              <div class="label-footer__phone"><a class="header-phone" href="tel:8(800)302-44-94" itemprop="telephone">8 (800) 302-44-94</a></div>
+              <div class="language-picker js-language-picker picker-city" data-trigger-class="btn btn--subtle js-tab-focus">
+                <form action="" class="language-picker__form">
+                  <label for="language-picker-select">Выбрать город</label>
+              
+                  <select name="language-picker-select" id="language-picker-select">
+                    <option lang="en" value="Архангельск" selected>Архангельск</option>
+                    <option lang="fr" value="Санкт-Петербург">Санкт-Петербург</option>
+                    <option lang="it" value="Москва">Москва</option>
+                  </select>
+                </form>
+              </div>
+              <div class="flex items-center">
+                <a href="#0" class="mega-nav__control">Наши магазины</a>
+                <a href="#0" class="mega-nav__control">Доставка и оплата</a>
+              </div>
+            </li>
+         </ul>
+          
+
+            <ul class="flex justify-between mega-nav__icon-btns mega-nav__icon-btns--mobile">
+              <li class="mega-nav__item mega-nav__social-btn">
+                <a href="#0" class="mega-nav__control"><svg class="icon" width="17" height="11" viewBox="0 0 17 11" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.7" d="M16.6278 0.732307C16.7304 0.313846 16.6278 0 16.1146 0H14.1644C13.6512 0 13.4459 0.209231 13.3433 0.523077C13.3433 0.523077 12.4195 2.82462 11.0852 4.39385C10.6746 4.81231 10.4693 5.02154 10.2641 5.02154C10.1614 5.02154 9.95614 4.91692 9.95614 4.49846V0.732307C9.95614 0.209231 9.8535 0 9.44294 0H6.46636C6.15844 0 5.95316 0.209231 5.95316 0.418462C5.95316 0.836923 6.67164 0.941538 6.67164 2.30154V5.12615C6.67164 5.75385 6.569 5.85846 6.36372 5.85846C5.74788 5.85846 4.20827 3.45231 3.2845 0.836923C3.07922 0.313846 2.97658 0.104615 2.46338 0.104615H0.61585C0.102647 0.104615 0 0.313846 0 0.627692C0 1.15077 0.615845 3.66154 2.97658 6.90462C4.51619 9.20615 6.67164 10.3569 8.62181 10.3569C9.8535 10.3569 9.95614 10.0431 9.95614 9.62461V7.95077C9.95614 7.42769 10.0588 7.32308 10.4693 7.32308C10.7773 7.32308 11.1878 7.42769 12.3169 8.57846C13.5486 9.83385 13.7538 10.4615 14.4723 10.4615H16.3199C16.8331 10.4615 17.141 10.1477 16.9357 9.62461C16.7304 9.10154 16.1146 8.36923 15.3961 7.42769C14.9855 6.90462 14.267 6.38154 14.1644 6.06769C13.8565 5.75385 13.9591 5.54462 14.1644 5.23077C14.1644 5.12615 16.4225 1.88308 16.6278 0.732307Z"/>
+                  </svg>
+                  </a>
+              </li>
+              <li class="mega-nav__item mega-nav__social-btn">
+                <a href="#0" class="mega-nav__control"><svg class="icon" width="7" height="14" viewBox="0 0 7 14" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.7" d="M1.71698 4.66288H0V7.06094H1.71698V13.9886H4.62264V7.06094H6.73585L6.86792 4.66288H4.62264V3.73031C4.62264 3.1974 4.75472 2.93095 5.28302 2.93095H7V0H4.75472C2.64151 0 1.71698 0.932576 1.71698 2.6645V4.66288Z"/>
+                  </svg>              
+                  </a>
+              </li>
+              <li class="mega-nav__item mega-nav__social-btn">
+                <a href="#0" class="mega-nav__control"><svg class="icon" width="13" height="13" viewBox="0 0 13 13" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.7" d="M9.36815 0H3.59791C1.62924 0 0 1.62924 0 3.59791V9.40209C0 11.3708 1.62924 13 3.59791 13H9.36815C11.3368 13 12.9661 11.3708 13 9.40209V3.63185C13 1.62924 11.3708 0 9.36815 0ZM6.48303 9.5718C4.7859 9.5718 3.4282 8.2141 3.4282 6.51697C3.4282 4.81984 4.7859 3.49608 6.44909 3.49608C8.11227 3.49608 9.46997 4.85379 9.46997 6.51697C9.46997 8.18016 8.14621 9.5718 6.48303 9.5718ZM11.235 3.1906C10.9634 3.63185 10.3864 3.80157 9.97911 3.53003C9.53786 3.25849 9.36815 2.68146 9.63969 2.27415C9.91123 1.8329 10.4883 1.66319 10.8956 1.93473C11.3368 2.17232 11.4726 2.74935 11.235 3.1906Z"/>
+                  </svg>              
+                  </a>
+              </li>
+              <li class="mega-nav__item mega-nav__social-btn">
+                <a href="#0" class="mega-nav__control"><svg class="icon" width="10" height="17" viewBox="0 0 10 17" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.7" d="M4.2026 11.4327C2.91649 11.2908 1.75171 10.9833 0.732535 10.2265C0.611204 10.1319 0.489873 10.0373 0.368543 9.94274C-0.0682485 9.54069 -0.116781 9.06769 0.222945 8.57105C0.514139 8.169 1.02373 8.05075 1.53332 8.28725C1.63038 8.33455 1.72745 8.38185 1.82451 8.4528C3.69301 9.70624 6.24096 9.72989 8.10945 8.5001C8.30358 8.3582 8.49771 8.23995 8.71611 8.19265C9.1529 8.0744 9.58969 8.23995 9.80808 8.61835C10.075 9.04404 10.075 9.46974 9.73528 9.82449C9.22569 10.3448 8.59478 10.7232 7.91532 10.9833C7.26014 11.2198 6.55642 11.3617 5.82843 11.4327C5.9255 11.5509 5.97403 11.5982 6.04683 11.6692C7.01747 12.6152 7.96385 13.5375 8.9345 14.4835C9.24996 14.8146 9.32276 15.193 9.1529 15.5714C8.95877 15.9734 8.52198 16.2572 8.08519 16.2099C7.81826 16.1863 7.59986 16.068 7.40573 15.8788C6.67775 15.1693 5.94976 14.4598 5.22178 13.7504C5.00338 13.5375 4.90632 13.5848 4.73645 13.774C4.00847 14.5071 3.25622 15.2166 2.52823 15.9498C2.18851 16.2809 1.80025 16.3282 1.41199 16.139C0.999463 15.9498 0.732535 15.5241 0.756801 15.122C0.781068 14.8382 0.902398 14.6254 1.09653 14.4362C2.04291 13.5139 2.98929 12.5915 3.93567 11.6455C4.03273 11.5982 4.10553 11.5273 4.2026 11.4327Z"/>
+                  <path opacity="0.7" d="M4.9793 8.25378C2.67401 8.25378 0.78125 6.38545 0.78125 4.11507C0.805516 1.84468 2.69828 0 5.02783 0C7.35738 0 9.25014 1.86833 9.22588 4.16237C9.22588 6.4564 7.30885 8.27743 4.9793 8.25378ZM7.09046 4.13872C7.09046 3.02717 6.16834 2.12848 5.02783 2.12848C3.86305 2.12848 2.94094 3.02717 2.96521 4.16237C2.96521 5.27391 3.88732 6.1726 5.0521 6.14895C6.16834 6.14895 7.09046 5.25026 7.09046 4.13872Z"/>
+                  </svg>              
+                  </a>
+              </li>
+              <li class="mega-nav__item mega-nav__social-btn">
+                <a href="#0" class="mega-nav__control"><svg class="icon" width="15" height="12" viewBox="0 0 15 12" fill="#648580" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.7" d="M14.254 0.839318C13.6834 0.202563 13.0443 0.198787 12.7512 0.162717C10.652 4.50135e-07 7.50333 0 7.50333 0H7.49627C7.49627 0 4.34758 4.50135e-07 2.24881 0.162717C1.95577 0.198837 1.31713 0.202563 0.74601 0.839318C0.296814 1.32508 0.150047 2.42842 0.150047 2.42842C0.150047 2.42842 0 3.72305 0 5.01772V6.23121C0 7.52678 0.150047 8.82096 0.150047 8.82096C0.150047 8.82096 0.296367 9.9238 0.74601 10.4086C1.31713 11.0454 2.06592 11.0261 2.3998 11.0927C3.59973 11.2156 7.5 11.2536 7.5 11.2536C7.5 11.2536 10.652 11.248 12.7512 11.0872C13.0442 11.0496 13.6834 11.0459 14.254 10.4091C14.7032 9.9243 14.85 8.82145 14.85 8.82145C14.85 8.82145 15 7.52683 15 6.23171V5.01817C15 3.7231 14.85 2.42842 14.85 2.42842C14.85 2.42842 14.7037 1.32513 14.254 0.839318ZM5.62675 8.44023V2.81343L10.3158 5.62685L5.62675 8.44023Z"/>
+                  </svg>              
+                  </a>
+              </li>
+          </ul>
+
+          
+  
+          <ul class="mega-nav__items border-left padding-left-md">
+            <!-- 👇 icon buttons --desktop -->
+            <li class="mega-nav__icon-btns mega-nav__icon-btns--desktop">
+              <button class="reset mega-nav__icon-btn mega-nav__icon-btn--search js-tab-focus">
+                <svg width="20" height="19" viewBox="0 0 20 19" fill="#203330" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.5 16C10.275 15.9996 11.9988 15.4054 13.397 14.312L17.793 18.708L19.207 17.294L14.811 12.898C15.905 11.4997 16.4996 9.77544 16.5 8C16.5 3.589 12.911 0 8.5 0C4.089 0 0.5 3.589 0.5 8C0.5 12.411 4.089 16 8.5 16ZM8.5 2C11.809 2 14.5 4.691 14.5 8C14.5 11.309 11.809 14 8.5 14C5.191 14 2.5 11.309 2.5 8C2.5 4.691 5.191 2 8.5 2Z" />
+                </svg>               
+              </button>
+
+              <div class="mega-nav__icon-btn inline-block">
+                <a href="#0" class="color-inherit flex height-100% width-100% flex-center">
+                  <svg width="22" height="18" viewBox="0 0 22 18" fill="#203330" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 16.5L9.81644 17.2299L10.1049 17.5H10.5V16.5ZM10.5 4.5L9.57152 4.87139L9.82297 5.5H10.5V4.5ZM11.5 4.5V5.5H12.177L12.4285 4.87139L11.5 4.5ZM11.5 16.5V17.5H11.8951L12.1836 17.2299L11.5 16.5ZM11.6372 4.15707L10.7087 3.78568L11.6372 4.15707ZM10.3628 4.15707L9.43435 4.52846L10.3628 4.15707ZM11.1836 15.7701L3.98749 9.03093L2.62038 10.4907L9.81644 17.2299L11.1836 15.7701ZM9.43435 4.52846L9.57152 4.87139L11.4285 4.12861L11.2913 3.78568L9.43435 4.52846ZM10.5 5.5H11.5V3.5H10.5V5.5ZM12.4285 4.87139L12.5656 4.52847L10.7087 3.78568L10.5715 4.12861L12.4285 4.87139ZM18.0125 9.03092L10.8164 15.7701L12.1836 17.2299L19.3796 10.4907L18.0125 9.03092ZM11.5 15.5H10.5V17.5H11.5V15.5ZM18.4351 3.70329C19.691 5.32192 19.5078 7.63055 18.0125 9.03092L19.3796 10.4907C21.6288 8.38438 21.9042 4.91191 20.0153 2.4773L18.4351 3.70329ZM20.0153 2.4773C17.4498 -0.829386 12.263 -0.100201 10.7087 3.78568L12.5656 4.52847C13.5459 2.07772 16.8171 1.61783 18.4351 3.70329L20.0153 2.4773ZM3.56486 3.70329C5.18288 1.61783 8.45405 2.07771 9.43435 4.52846L11.2913 3.78568C9.73695 -0.100204 4.55022 -0.829386 1.98468 2.4773L3.56486 3.70329ZM3.98749 9.03093C2.49217 7.63055 2.30903 5.32192 3.56486 3.70329L1.98468 2.4773C0.0957624 4.91191 0.371228 8.38438 2.62038 10.4907L3.98749 9.03093Z" />
+                  </svg>                    
+                </a>
+              </div>
+
+              <div class="mega-nav__icon-btn inline-block">
+                <a href="#0" class="color-inherit flex height-100% width-100% flex-center">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="#203330" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.5 7C22.5 7 10.8388 7 7.333 7L6.179 4.23C6.02769 3.86523 5.77147 3.55359 5.44282 3.33462C5.11418 3.11564 4.72791 2.99918 4.333 3H2V5H4.333L9 17C12 17 16 17 19 17L22.5 7ZM17.5 15H10.5L8.167 9H19.557L17.5 15Z" />
+                    <path d="M10.5 21C11.3284 21 12 20.3284 12 19.5C12 18.6716 11.3284 18 10.5 18C9.67157 18 9 18.6716 9 19.5C9 20.3284 9.67157 21 10.5 21Z" />
+                    <path d="M17.5 21C18.3284 21 19 20.3284 19 19.5C19 18.6716 18.3284 18 17.5 18C16.6716 18 16 18.6716 16 19.5C16 20.3284 16.6716 21 17.5 21Z" />
+                    <line x1="14" y1="11" x2="14" y2="13" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="dropdown inline-block js-dropdown">
+                <div class="mega-nav__icon-btn dropdown__wrapper inline-block">
+                  <a href="#0" class="color-inherit flex height-100% width-100% flex-center dropdown__trigger js-dropdown__trigger">
+                    <svg class="icon-account" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12" cy="10" r="3" fill="#203330"></circle>
+                      <circle cx="12" cy="12" r="9" stroke="#203330" stroke-width="2"></circle>
+                      <path d="M17.8719 18.8083C17.9489 18.7468 17.9799 18.6436 17.9452 18.5513C17.5693 17.5518 16.8134 16.6706 15.7814 16.0332C14.6966 15.3632 13.3674 15 12 15C10.6326 15 9.30341 15.3632 8.21858 16.0332C7.18663 16.6706 6.43066 17.5518 6.05477 18.5513C6.02009 18.6436 6.05115 18.7468 6.12813 18.8083V18.8083C9.56196 21.552 14.438 21.552 17.8719 18.8083V18.8083Z" stroke="#203330" stroke-width="2" stroke-linecap="round"></path>
+                      </svg>                
+                  </a>
+  
+                  <ul class="dropdown__menu js-dropdown__menu" aria-label="submenu">
+                    <li><a href="#0" class="dropdown__item">Мой профиль</a></li>
+                    <li><a href="#0" class="dropdown__item">Мои бонусы</a></li>
+                    <li><a href="#0" class="dropdown__item">Выйти</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="plug-page container max-width-xxxl">
+    <div class="flex plug-page__container">
+      <div class="plug-page_content text-center margin-bottom-lg">
+        <h1>500</h1>
+        <p class="max-width-xxxs">Упс, что-то пошло не так. Сайт временно недоступен. Попробуйте зайти позже</p>
+      </div>
+    </div>
+  </section>
+  
+
+<script src="../assets/js/scripts.min.js"></script>
+</body>
+</html>
